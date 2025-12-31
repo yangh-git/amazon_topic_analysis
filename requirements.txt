@@ -1,0 +1,17 @@
+pandas>=1.5
+numpy>=1.23
+
+scikit-learn>=1.2
+umap-learn>=0.5
+hdbscan>=0.8
+
+sentence-transformers>=2.2
+huggingface_hub[hf_xet]>=0.16
+
+matplotlib>=3.7
+seaborn>=0.12
+
+jupyter
+ipykernel
+
+plotly>=5.20.0
