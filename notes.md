@@ -41,3 +41,19 @@ The library is designed to work with large datasets and supports GPU acceleratio
 ## Resources
 
 For more details and documentation, you can visit the [official BERTopic GitHub Pages](https://maartengr.github.io/BERTopic/).
+
+<br>
+<br>
+<br>
+-----------------------------------------------------------------------------------
+
+# How to ignore metadata changes in a Jupyter notebook
+### In the virtual env, install nbstripout:
+- `pip install nbstripout`
+### Enable the Git filter
+You can enable nbstripout for a specific repository or globally for all repositories.
+For a single repository (recommended):
+Navigate to your repository's root directory in the terminal and run:
+- `nbstripout --install`
+### Verify the configuration:
+This command adds a filter to your local Git configuration (.git/config or global config). Once installed, running a command like `git diff` or `git status` after executing cells should no longer show spurious metadata changes. 
